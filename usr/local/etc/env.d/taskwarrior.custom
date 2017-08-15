@@ -1,0 +1,4 @@
+export taskrc=$TASKRC
+export task=$taskrc
+export taskdata=$TASKDATA
+export tasks=$TASKDATA

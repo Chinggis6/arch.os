@@ -1,0 +1,2 @@
+dir=/usr/local/etc/env.d
+for a in $dir/*; do source $a; done

@@ -1,0 +1,13 @@
+# available
+export systemd_units=/usr/lib/systemd
+export system_units=$systemd_units/system
+export user_units=$systemd_units/user
+
+# enabled
+export enabled_units=/etc/systemd
+export system_enabled_units=$enabled_units/system
+export user_enabled_units=$enabled_units/user
+
+# aliases
+export U=$system_enabled_units
+export u=$user_enabled_units

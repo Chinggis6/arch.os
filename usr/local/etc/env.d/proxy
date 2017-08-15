@@ -1,0 +1,4 @@
+# can be mandatory to set
+# https://wiki.archlinux.org/index.php/Installing_VMWare_vCLI
+export ftp_proxy=''
+export http_proxy=''

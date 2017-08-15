@@ -1,0 +1,1 @@
+alias rsync='rsync -hvP' # P is for --progress --partial

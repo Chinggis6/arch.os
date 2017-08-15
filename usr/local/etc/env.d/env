@@ -1,0 +1,11 @@
+export EDITOR=vim
+export VISUAL=vim # needed by yaourt
+export BROWSER=qutebrowser
+export PAGER=less
+export TERM=rxvt-unicode # xterm
+
+export CDPATH=\
+/letc:\
+/dbx:\
+/dbx/srv:\
+/dbx/srv/lab:\

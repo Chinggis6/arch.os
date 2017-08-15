@@ -1,0 +1,4 @@
+# some DRY followed
+
+share=/usr/share
+misc=$share/misc

@@ -1,0 +1,3 @@
+# core/gnupg
+
+alias gpg-agent='gpg-agent -v' # --verbose

@@ -1,0 +1,2 @@
+#ftp
+# alias hostname='hostname -f' # same as --fqdn and --long

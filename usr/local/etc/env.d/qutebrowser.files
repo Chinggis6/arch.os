@@ -1,0 +1,4 @@
+export qutebrowser=~/.config/qutebrowser/qutebrowser.conf
+export qutebrowser_history=~/.local/share/qutebrowser/history
+export qutebrowser_cmd_history=~/.local/share/qutebrowser/cmd-history
+export userscripts=$share/qutebrowser/userscripts

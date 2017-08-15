@@ -1,0 +1,2 @@
+dir=/usr/local/etc/func.d
+for file in $dir/*; do source $file; done

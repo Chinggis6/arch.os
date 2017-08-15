@@ -1,0 +1,5 @@
+export gitconfig=/etc/gitconfig
+export git=$gitconfig
+
+export gitignore=/letc/gitignore
+export ignore=$gitignore

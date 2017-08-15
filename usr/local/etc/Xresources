@@ -1,0 +1,127 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
+! source /usr/local/etc/Xresources
+! from /etc/i3/config
+! with xrdb -load
+
+! map to builtin: to unmap a key
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background: #2b2b2b
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+
+! ---
+
+urxvt*background: black
+! default is white
+urxvt*foreground: gray
+! default is black
+
+! nerd-fonts-complete (AUR)
+! rxvt-unicode-patched (AUR, 240+)
+
+#define dejavu xft:DejaVuSansMonoForPowerline Nerd Font
+#define fura xft:FuraMonoForPowerline Nerd Font
+#define fura_code xft:Fura Code Nerd Font
+#define iosevka xft:Iosevka Nerd Font
+#define noto xft:Noto Emoji
+#define terminus xft:Terminus
+#define hack xft:Hack
+#define hermit xft:Hermit
+#define monofur xft:Monofur Nerd Font
+#define droid xft:Droid Sans Mono for Powerline Nerd Font
+#define symbola xft:Symbola
+#define profont xft:ProFontIIx Nerd Font
+#define scp xft:Source Code Pro
+
+#define myfont scp
+
+! extra/adobe-source-code-pro-fonts
+
+urxvt*font: myfont:style=regular:size=9:antialias=true:hinting=true
+urxvt*boldFont: myfont:style=bold:size=9:antialias=true:hinting=true
+urxvt*italicFont: myfont:style=oblique:size=9:antialias=true:hinting=true
+
+! urxvt*boldFont: xft:DejaVu Sans Mono for Powerline Nerd Font:size=10:style=bold:antialias=true:hinting=true,xft:Terminess Powerline,xft:Symbola,xft: Font Awesome
+! urxvt*italicFont: xft:DejaVu Sans Mono for Powerline Nerd Font:size=10:style=oblique:antialias=true:hinting=true,xft:Terminess Powerline,xft:Symbola,xft:Font Awesome
+! urxvt*boldFont: xft:DejaVu Sans Mono for Powerline:size=9:style=bold:antialias=true:hinting=true
+! urxvt*italicFont: xft:DejaVu Sans Mono for Powerline:size=9:style=oblique:antialias=true:hinting=true
+
+! urxvt*font: xft:DejaVu Sans Mono Nerd Font Complete:size=9
+
+
+urxvt*letterSpace: -1
+! remove gaps between letters in fonts
+
+! make urls underlined and clickable
+URxvt.perl-ext-common:default,matcher,resize-font
+! https://www.mankier.com/1/urxvt-matcher
+URxvt.url-launcher:/usr/bin/qutebrowser
+!URxvt.url-launcher:/usr/bin/xdg-open
+URxvt.matcher.button:1
+! open the last URL on screen
+URxvt.keysym.C-Delete:perl:matcher:last
+! list the URLs on visible screen
+URxvt.keysym.M-Delete:perl:matcher:list
+
+! urxvt-resize-font-git (AUR)
+URxvt.keysym.C-minus:resize-font:smaller
+URxvt.keysym.C-plus:resize-font:bigger
+URxvt.keysym.C-equal:resize-font:reset
+URxvt.keysym.C-question:resize-font:show
+URxvt.keysym.M-s:builtin:
+
+! case matters in properties
+urxvt*scrollBar:false
+! urxvt*borderLess:true
+urxvt*cursorBlink:false
+! https://pastebin.com/ZeePMqQq
+
+#define coffee #6f4e37
+urxvt*cursorColor:coffee
+! ATTENTION: OVERWRITE!!!
+! comment cursor in `dynamic-colors edit solarized-dark`
+! http://vpaste.net/ommAB
+
+urxvt*saveLines:10000
+
+urxvt*loginShell:true
+! read profile files
+
+! transparency
+! doesnt work with dynamic-colors
+! urxvt*depth:32
+! urxvt*background:rgba:1111/1111/1111/dddd
+
+! taskbar icon
+! requires conflicting rxvt-unicode-pixbuf (AUR)
+! https://aur.archlinux.org/packages/rxvt-unicode-pixbuf/
+! urxvt*iconFile:/usr/share/icons/Adwaita/scalable/apps/web-browser-symbolic.svg
+
+! Xcursor.theme:Red-Dot
+Xcursor.theme:pixelfun3
+
+! solarized.theme
+! https://davedavenport.github.io/rofi/p05-Themes.html
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
+rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
+rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281

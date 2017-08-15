@@ -1,0 +1,65 @@
+# alias sqlite=sqlite3
+alias sqlite='rlwrap -aNci sqlite3' # community
+alias bzip=bzip2
+
+alias resource='source /etc/profile'
+alias rs=resource
+alias xresource='xrdb -load ~/.Xresources'
+alias xres=xresources
+
+# web
+alias youtube=mpsyt
+alias twitter=rainbowstream
+alias reddit=rtv
+alias soundcloud=cloudruby # cloudruby-git (AUR); cloudruby chillout; /usr/lib/cloudruby/lib/ncurses_ui.rb
+alias sc=soundcloud
+
+alias bfc=bash-fuzzy-clock # AUR
+alias fuzzytime=bfc
+
+alias v=vboxmanage
+
+alias k=kill
+
+alias J=journalctl
+alias S=systemctl
+alias L=loginctl
+alias T=timedatectl
+alias syscat=systemd-cat
+
+alias ll='ls -l'
+
+alias mime=xdg-mime
+alias mimef='mime query filetype'
+alias mimed='mime query default'
+
+alias torrent=rtorrent
+
+alias x='exit 123'
+alias parent=dirname
+alias so=source
+# source searches starting from current directory
+# . searches in order specified in $PATH
+
+alias fuzzy=bash-fuzzy-clock
+
+alias esx=esxcli # aur/vmware-vcli
+
+alias bee=bumblebee-status
+alias colo=dynamic-colors
+alias mux=tmuxinator
+
+alias rmcdir='cd .. && rmdir $OLDPWD'
+
+alias cmd='command' # suppress aliases
+alias c=cmd
+
+alias hn=hostname
+
+alias zath=zathura
+
+alias csslint=csslint-0.6 # extra/libcroco
+
+
+
+# vim: ft=conf

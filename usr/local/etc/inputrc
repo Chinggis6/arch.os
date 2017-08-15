@@ -1,0 +1,10 @@
+# $include from /etc/inputrc
+
+# options
+
+set editing-mode vi
+set completion-ignore-case on
+
+# keys
+
+"\e\C-l": alias-expand-line

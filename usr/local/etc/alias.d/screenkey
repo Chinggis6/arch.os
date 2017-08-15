@@ -1,0 +1,1 @@
+alias screenkey='screenkey -s small --no-whitespace -p top'

@@ -1,0 +1,3 @@
+# run irb (of ruby)
+
+export IRBRC=/usr/local/etc/irbrc # defaults to ~/.irbrc

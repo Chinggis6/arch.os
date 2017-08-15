@@ -1,0 +1,11 @@
+alias S='systemctl'
+alias Sstatus='systemctl status'
+alias Sstart='systemctl start'
+alias Sstop='systemctl stop'
+alias Sdisable='systemctl disable'
+
+alias Ss=Sstart
+alias SS=Sstop
+alias St=Sstatus
+alias Se=Senable
+alias Sd=Sdisable

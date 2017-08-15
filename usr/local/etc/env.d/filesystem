@@ -1,0 +1,2 @@
+export resolv=$etc/resolv.conf
+export dns=$resolv

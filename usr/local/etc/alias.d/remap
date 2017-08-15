@@ -1,0 +1,5 @@
+alias ping=fping
+#alias tail=multitail
+alias ftp=lftp
+alias git='hub'
+alias more='less'

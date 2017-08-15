@@ -1,0 +1,5 @@
+export systemd=/etc/systemd
+export Sd=$systemd
+export journald=$Sd/journald.conf
+export timesyncd=$Sd/timesyncd.conf
+export logind=$Sd/logind.conf # HandleLidSwitch=ignore

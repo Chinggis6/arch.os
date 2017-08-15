@@ -1,0 +1,1 @@
+export PYTHONSTARTUP=/usr/local/etc/pythonstartup.py

@@ -1,0 +1,15 @@
+alias pacman='pacman --noconfirm'
+alias pactree='pactree -c'
+alias pkgfile='pkgfile -ir' # --ignorecase --regex
+
+alias makepkg='makepkg --skipinteg' # -si
+
+alias pacaur='pacaur --noconfirm' # --skipinteg
+
+alias yaourt='yaourt --color' # to be used with `less -R`; uncommenting Color in pacman.conf has no effect on that
+
+
+alias repo='pacman -Sp --print-format %r'
+alias url='pacman -Sp --print-format %l'
+alias ver='pacman -Sp --print-format %v'
+alias name='pacman -Sp --print-format %n' # dependency resolution
