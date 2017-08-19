@@ -1,8 +1,8 @@
 
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes' " :AirlineTheme solarized
-let g:airline_powerline_fonts = 1
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes' " :AirlineTheme solarized
+" let g:airline_powerline_fonts = 1
 " community/powerline-fonts
 " let g:airline#extensions#tabline#enabled = 1
 
@@ -51,7 +51,7 @@ noremap <silent> <LocalLeader>t :NERDTreeFind<CR>
 Plug 'majutsushi/tagbar'
 " supported languages: http://ctags.sourceforge.net/languages.html
 autocmd BufEnter,FileType python :TagbarOpen<CR>
-autocmd BufEnter *.vim :TagbarOpen<CR> " .vim scripts & plugins
+"autocmd BufEnter *.vim :TagbarOpen<CR> " .vim scripts & plugins
 
 Plug 'aquach/vim-mediawiki-editor'
 " let g:mediawiki_editor_url='en.wikipedia.org'

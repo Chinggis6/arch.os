@@ -1,11 +1,11 @@
 alias pacman='pacman --noconfirm'
 alias pactree='pactree -c'
-alias pkgfile='pkgfile -ir' # --ignorecase --regex
 
 alias makepkg='makepkg --skipinteg' # -si
 
 alias pacaur='pacaur --noconfirm' # --skipinteg
 
+alias pq='package-query -As'
 alias yaourt='yaourt --color' # to be used with `less -R`; uncommenting Color in pacman.conf has no effect on that
 
 

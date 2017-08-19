@@ -3,3 +3,6 @@ alias ping=fping
 alias ftp=lftp
 alias git='hub'
 alias more='less'
+alias cd=pushd
+alias pg=less
+alias top='htop'

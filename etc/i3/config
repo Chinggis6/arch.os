@@ -194,14 +194,24 @@ bindsym XF86AudioLowerVolume exec --no-startup-id vol d $step
 bindsym XF86AudioMute exec --no-startup-id vol m
 # vol-git (AUR)
 
+bindsym XF86AudioNext exec --no-startup-id mpc next
+bindsym XF86AudioPrev exec --no-startup-id mpc prev
+bindsym XF86AudioPlay exec --no-startup-id mpc toggle
+# bindsym XF86AudioPlay exec --no-startup-id mpc play
+# bindsym XF86AudioPause exec --no-startup-id mpc pause
+# bindsym shift+XF86AudioPause exec --no-startup-id mpc pause
+bindsym shift+XF86AudioNext exec --no-startup-id mpc seek +5
+bindsym shift+XF86AudioPrev exec --no-startup-id mpc seek -5
+# extra/mp{d,c}
+
 bindsym $mod+grave workspace next
 bindsym $mod+Shift+grave workspace prev
 bindsym $mod+bracketright workspace next
 bindsym $mod+bracketleft workspace prev
 
-exec --no-startup-id dunst # AUR
+exec --no-startup-id dunst -conf /letc/dunstrc # community/dunst
 exec --no-startup-id feh --bg-scale "$HOME/.wall.png"
-exec --no-startup-id nm-applet # network-manager-applet-gtk2-jlindgren90-git (AUR); a/w nm-connection-editor
+# exec --no-startup-id nm-applet # network-manager-applet-gtk2-jlindgren90-git (AUR); a/w nm-connection-editor
 exec --no-startup-id numlockx off # community
 exec --no-startup-id volnoti # AUR, vol
 
@@ -293,6 +303,8 @@ bindsym ctrl+$mod+p exec --no-startup-id passmenu # community/pass
 # to set PASSWORD_STORE_DIR for non-shell execution
 
 exec --no-startup-id qopenvpn
+exec --no-startup-id anydesk --tray # aur/anydesk
+exec --no-startup-id cbatticon # community/cbatticon
 # community/qopenvpn
 
 # vi: ft=sh

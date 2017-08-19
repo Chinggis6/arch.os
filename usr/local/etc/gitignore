@@ -1,1 +1,2 @@
+# git config --system core.excludesfile /usr/local/etc/gitignore
 *

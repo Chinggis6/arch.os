@@ -3,3 +3,4 @@ export git=$gitconfig
 
 export gitignore=/letc/gitignore
 export ignore=$gitignore
+export ign=$ignore

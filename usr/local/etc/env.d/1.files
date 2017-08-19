@@ -182,7 +182,9 @@ export npmrc=$usr/etc/npmrc
 
 export alsa=$share/alsa/alsa.conf
 
-export ranger=$SP/ranger/config/rc.conf
+export ranger=/letc/ranger.d/rc.conf
 export R=$ranger
 
 export hostname=$etc/hostname
+
+export passwd=$etc/passwd

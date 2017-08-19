@@ -96,6 +96,7 @@ urxvt*cursorBlink:false
 
 #define coffee #6f4e37
 urxvt*cursorColor:coffee
+XTerm*cursorColor:coffee
 ! ATTENTION: OVERWRITE!!!
 ! comment cursor in `dynamic-colors edit solarized-dark`
 ! http://vpaste.net/ommAB

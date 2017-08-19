@@ -19,7 +19,7 @@ alias sha512sum='sha512sum --tag'
 alias shred='shred -vz'
 #alias echo='echo -n' # USE print
 alias du='du --si' # -h; --exclude='*.o'
-alias df='df -H' # -h; same as --si
+alias df='df -h'
 alias realpath='realpath -z' # --zero
 # shuf # -i 1-100 -n 5
 # alias dirname='dirname -z'
@@ -31,6 +31,8 @@ alias date='date +"%H:%M %b %d, %Y"'
 alias tail='tail -v' # file name
 alias head='head -v'
 alias pwd='pwd -P' # resolve symlinks; --physical
+
+# alias dd='dd bs=1024'
 
 #expand # convert tabs to spaces
 #unexpand # convert spaces to tabs
