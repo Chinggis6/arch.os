@@ -9,3 +9,5 @@ alias SS=Sstop
 alias St=Sstatus
 alias Se=Senable
 alias Sd=Sdisable
+
+alias j=journalctl

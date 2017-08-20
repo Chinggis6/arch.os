@@ -1,3 +1,0 @@
-alias grep=rg
-alias cat=pygmentize
-alias kill=pkill

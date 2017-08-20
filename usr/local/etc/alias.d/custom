@@ -60,6 +60,7 @@ alias zath=zathura
 
 alias csslint=csslint-0.6 # extra/libcroco
 
+alias yl=youtube-dl
 
 
 # vim: ft=conf
