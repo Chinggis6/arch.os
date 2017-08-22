@@ -36,6 +36,9 @@ alias mimed='mime query default'
 alias torrent=rtorrent
 
 alias x='exit 123'
+alias xx='kill -9 $PPID'
+alias xxx='poweroff'
+
 alias parent=dirname
 alias so=source
 # source searches starting from current directory

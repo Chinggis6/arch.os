@@ -4,8 +4,12 @@ alias -s mpg=mpv
 alias -s png=feh
 alias -s jpg=feh
 alias -s pdf=zathura
-alias -s mp4=mpv
 alias -s iso=iso-info
+
+# video
+alias -s mp4=mpv
+alias -s mkv=mpv
+alias -s webm=mpv
 
 # dev
 alias -s css='vim --remote'

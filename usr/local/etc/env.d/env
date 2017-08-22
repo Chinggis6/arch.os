@@ -1,4 +1,4 @@
 export EDITOR=vim
 export VISUAL=vim # needed by yaourt
 export BROWSER=qutebrowser
-export PAGER=less
+export PAGER=most

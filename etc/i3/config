@@ -11,8 +11,11 @@ set $mod Mod4
 # alt is used by many good applications such as weechat and readline
 
 floating_modifier $mod
+
 bindsym $mod+Return exec urxvt -e tmux
 bindsym $mod+Shift+Return exec urxvt
+bindsym ctrl+$mod+Return exec xterm
+
 bindsym $mod+Shift+q kill
 
 bindsym $mod+o exec rofi -show window
@@ -303,7 +306,7 @@ bindsym ctrl+$mod+p exec --no-startup-id passmenu # community/pass
 # to set PASSWORD_STORE_DIR for non-shell execution
 
 exec --no-startup-id qopenvpn
-exec --no-startup-id anydesk --tray # aur/anydesk
+# exec --no-startup-id anydesk --tray # aur/anydesk
 exec --no-startup-id cbatticon # community/cbatticon
 # community/qopenvpn
 

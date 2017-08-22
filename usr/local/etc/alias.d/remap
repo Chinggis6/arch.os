@@ -4,5 +4,5 @@ alias ftp=lftp
 alias git='hub'
 alias more='less'
 # alias cd=pushd
-alias pg=less
+alias pg='less -R'
 alias top='htop'

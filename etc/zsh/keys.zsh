@@ -2,7 +2,7 @@ mode=vicmd
 
 function vfzf
 {
-fzf --reverse --bind 'enter:execute(vim {})' --preview='pygmentize -g {}'
+fzf --bind 'enter:execute(vim {})' --preview='pygmentize -g {}'
 # fzf --reverse --bind 'enter:execute(vim {})' --preview='highlight --force {}'
 }
 zle -N vfzf # register function as widget

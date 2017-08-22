@@ -1,4 +1,5 @@
 
+" Plug 'framallo/taskwarrior.vim'
 
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes' " :AirlineTheme solarized
